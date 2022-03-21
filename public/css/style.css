@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+
+
+/* @media (prefers-color-scheme: light){
+    body{
+        background: #fff;
+        color:#333
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background: #333;
+        color:#fff;
+    }
+} */
+/* style css */
+
+@import url('header.css');
+@import url('accueil.css');
+@import url('decSalles.css');
+@import url('domiciliation.css');
+@import url('contact.css');
+@import url('salleEurope.css');
+@import url('reservation.css');
+@import url('login.css');
+@import url('profil.css');
+@import url('inscription.css');
+@import url('footer.css');
+
+

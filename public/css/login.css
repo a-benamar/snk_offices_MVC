@@ -1,0 +1,183 @@
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  background-color:#f5f5f5;
+  padding: 0;
+  margin: 0;
+}
+
+#seConnecter{
+  position: relative;
+  left:11%;
+  bottom: 5%;
+  margin: 5%;
+  text-align: center;
+  background-color:white;
+  border-radius: 9px;
+  border-top: 10px solid #fb911f;
+  border-bottom: 10px solid #fb911f;
+  width: 70%;
+  height: auto;
+  box-shadow: 1px 1px 15px 1px rgb(25,31,53);
+  justify-content: center !important;
+  
+}
+
+.formConnecter h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #696c7a; 
+  font-size: 20px;
+  margin-top:55px;
+}
+
+.formConnecter h4 span{
+  color: #fb911f;
+  font-weight: lighter;
+}
+
+.formConnecter h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: #262e49;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.formConnecter input[type = "email"],
+.formConnecter input[type = "password"] {
+
+  /* display: block; */
+  margin: 20px auto;
+  background: #262e49;
+  border: 0;
+  border-radius: 5px;
+  padding: 7px 15px;
+  /* width: 100%; */
+  outline: none;
+  color: #d6d6d6;  
+}
+
+.formConnecter input[type = "email"]:focus,
+.formConnecter input[type = "password"]:focus {
+  border: 2px solid #fb911f;
+  
+}
+
+
+ /* label input[type = "checkbox"] { */
+   /* hide the default checkbox */
+  /* display: none; 
+} */
+
+/* style the artificial checkbox */
+/* label span {
+  border: 2px solid #464d64;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  left: 7.5%;
+} */
+
+/* .rmb {
+  position: absolute;
+  margin-left: -24%;
+  margin-top: 0px;
+  color: #dfdeee;
+  font-size: 13px;
+} */
+
+.forgetpass a{
+  position: relative;
+  text-decoration: none;
+  color: #262e49;
+
+}
+
+.forgetpass a:hover{
+  font-weight: 500;
+  color: #fb911f;
+  text-decoration: underline;
+}
+
+.btn-seConnecter {
+  /* position: relative; */
+  background: #5c6bc0;
+  color: #dfdeee;
+  border-radius: 10px;
+  /* width:auto; */
+  height: 50px;
+  font-size: 16px;
+  transition: 0.3s;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  margin-top:10px;
+  padding:10px;
+  
+}
+
+.btn-seConnecter:hover {
+  background:#fb911f;
+}
+
+.dnthave a{
+  position: relative;
+  color:#262e49;
+  text-decoration: none;
+}
+
+.dnthave a:hover{
+  color:#fb911f;
+  text-decoration: underline;
+}
+
+.dnthave span{
+  color:#fb911f;
+}
+
+
+
+  /* style its checked state */
+ /* [type=checkbox]:checked + span:before {
+    font-family: FontAwesome;
+    font-size: 16px;
+    content: "\f00c";
+    position: absolute;
+    top: -4px;
+    color: #896cec;
+    left: -1px;
+    width: 13px;
+}  */
+
+
+/* eye password */
+/* .typcn {
+  position: relative;
+  left: 339px;
+  top: 282px;
+  color: #3b476b;
+  font-size: 22px;
+  cursor: pointer;
+}      
+
+.typcn.active {
+  color: #7f60eb;
+} */
+
+.error {
+  background: #ff3333;
+  text-align: center;
+  width: 337px;
+  height: 20px;
+  padding: 2px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px auto 10px;
+  position: absolute;
+  top: 31%;
+  left: 7.2%;
+  color: white;
+  display: none;
+}

@@ -1,0 +1,183 @@
+html,
+body{
+  font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color:#f5f5f5;
+    padding: 0px;
+    margin:0px;
+  }
+  
+  #reservation{
+    position: relative !important;
+    left:11%;
+    margin: 5% !important;
+    padding: 0px;
+    text-align: center !important;
+    background-color: white! important;
+    border-radius: 9px !important;
+    border-top: 10px solid #fb911f !important;
+    border-bottom: 10px solid #fb911f !important;
+    width: 70%;
+    height: auto !important;
+    box-shadow: 1px 1px 15px 1px rgb(25,31,53) !important;
+    justify-content: center !important;
+  }
+  
+  
+  .form-reserv h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #5c6bc0 !important; 
+    font-size: 20px !important;
+    margin-top:55px !important;
+  }
+  
+  .form-reserv h4 span {
+    color: #fb911f;
+    font-weight: lighter !important;
+  }
+  
+  .form-reserv h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px !important;
+    color: #262e49;
+    letter-spacing: 1.5px !important;
+    margin-top: 20px !important;
+    margin-bottom: 70px !important;
+  }
+    
+  .formulaire-reser .minput{
+     color: #262e49 !important;
+     font-weight: 400 !important;
+     margin-bottom: -10px !important;
+  }
+  
+  .formulaire-reser .minput label{
+     display: flex !important;
+     /* justify-content: flex-start !important;  */
+     color:#262e49 !important;
+     /* font-size: 20px; */
+     font-weight: 400 !important;
+     margin-bottom: -10px !important;
+  }
+  
+  /* .ste input{
+    width:100% !important;
+  } */
+  
+  .msg textarea{
+    width:100% !important;
+  }
+  
+  
+  .formulaire-reser input,
+  .formulaire-reser select,
+  .formulaire-reser textarea {
+  
+    /* display: block !important; */
+    margin: 20px auto !important;
+    background: #262e49 !important;
+    border: 0 !important;
+    border-radius: 5px !important;
+    padding: 7px 15px !important;
+    /* width: 100% !important; */
+    outline: none !important;
+    color: #d6d6d6 !important;
+  
+  }
+  
+  ::-webkit-input-placeholder{
+    color: #565f79 !important;
+  }
+  
+  .formulaire-reser input:focus,
+  .formulaire-reser select:focus,
+  .formulaire-reser textarea:focus{
+    border: 2px solid #fb911f !important;
+  }
+  
+  .checkbox{
+    position:relative !important;
+    left:6% !important;
+    display: flex !important;           
+    margin-top:25px !important;
+  }
+  
+  
+  .checkbox input[type="checkbox"]:not(:checked) + label,
+  [type="checkbox"]:checked + label {
+   padding-left: 0 !important; /*place pour la box */
+    /* font-size: 16px !important; */
+    line-height: 55px !important;
+    /* display: flex !important; */
+    /* text-align: start !important; */
+    position: relative !important; 
+     /*permet de positionner la checkbox */ 
+    right: 6% !important; 
+     /* width:12% !important; */
+    /* justify-content: space-evenly !important; */
+    /* margin-left:23px !important; */
+    /* margin-top: 0%; */
+  }
+  
+  label span {
+    height: 13px !important;
+    width: 13px !important;
+    border: 2px solid #464d64 !important;
+    border-radius: 2px !important;
+    display: inline-block !important;
+    position: relative !important;
+    cursor: pointer !important;
+    left: 7.5% !important;
+  }
+  
+  .button{
+    display: flex !important;
+    justify-content: center !important;
+      
+  }
+  
+ .btn-submit {
+    background: #5c6bc0 !important;
+    color:#fff !important;
+    border-radius: 15px !important;
+    width: 70% !important;
+    height: 50px !important;
+    font-size: 16px !important;
+    transition: 0.3s !important;
+    letter-spacing: 2px !important;  
+  }
+  
+  .btn-submit:hover {
+    background: #fb911f !important;
+  }
+.btn-reset {
+    background: #5c6bc0 !important;
+    color:#fff !important;
+    border-radius: 15px !important;
+    width: 70% !important;
+    height: 50px !important;
+    font-size: 16px !important;
+    transition: 0.3s !important;
+    letter-spacing: 2px !important; 
+    margin-bottom: 30px;
+  }
+  
+  .btn-reset:hover {
+    background: #fb911f !important;
+  }
+  
+  .error {
+    background: #ff3333;
+    text-align: center;
+    width: 337px;
+    height: 20px;
+    padding: 2px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px auto 10px;
+    position: absolute;
+    top: 31%;
+    left: 7.2%;
+    color: white;
+    display: none;
+  }

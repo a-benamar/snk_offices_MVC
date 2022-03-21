@@ -1,0 +1,48 @@
+    body {
+        background: whitesmoke
+    }
+
+    .body-profil {
+        box-shadow: 1px 1px 15px 1px rgb(251, 145, 31)
+    }
+
+    .breadcrumb {
+        background: none
+    }
+
+    .logo-user-profil {
+        width: 100px;
+        height: 100px;
+        position: relative
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: red
+    }
+
+    .profile-button {
+        background: #fb911f;
+        box-shadow: none;
+        border: none
+    }
+
+    .profile-button:hover {
+        background: #262e49;
+
+    }
+
+    .profile-button:focus {
+        background: green;
+        box-shadow: none
+    }
+
+    .profile-button:active {
+        background: yellow;
+        box-shadow: none
+    }
+
+    .back:hover {
+        color: #fb911f;
+        cursor: pointer
+    }

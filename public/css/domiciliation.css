@@ -1,0 +1,108 @@
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color:#f5f5f5;
+    padding: 0;
+    margin: 0;
+  }
+
+  #domiciliation{
+    text-align: center;
+    background-color:#f5f5f5;
+    width: 100vw;
+    height: 100vh;
+  } 
+.domicil_entrep .titre{
+    display: flex;
+    flex-direction: column;
+}
+
+.domicil_entrep .titre h6{
+    color: #7f7f7f !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+}
+
+.domicil_entrep .titre h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #5c6bc0; 
+}
+
+.domicil_entrep .titre p{
+      font-size: 12px;
+      color:#7f7f7f;
+  }
+
+.domicil_entrep .titre h2 span{
+    color: #fb911f;
+  }
+  
+.container .card-flip .card img{
+  width: 100% !important;
+  width:100% !important;
+}
+.container .card-block h3{
+  font-size: 20px !important;
+}
+
+.container .card-block h4{
+    font-size: 26px !important;
+    font-weight: 600 !important;
+  }
+
+  .container .card-block h4 span{
+    font-size: 10px !important;
+    vertical-align: 5px !important;
+    margin-left: 10px !important;
+    color:#7f7f7f !important;
+}
+
+.container .card .card-block p{
+  font-size: 12px;
+  color:#7f7f7f;
+}
+
+.card .card-block a{
+  color:#fff !important;
+  background: #262e49 !important;
+}
+
+.card .card-block a:hover{
+  color:#fff !important;
+  background: #fb911f !important;
+  font-weight: 400 !important;
+  text-decoration: none;
+}
+
+.grand-img-domic{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/domiciliation/image2.jpeg");
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    margin-bottom: 2%;
+}
+
+.overlay-img-domic{
+    width:100%;
+    height:100%;
+    font-size: 26px;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.overlay-img-domic h2,h6{
+    color:#ffffe8 !important;
+    margin-bottom:20px !important;
+    margin-right:20px !important;
+}

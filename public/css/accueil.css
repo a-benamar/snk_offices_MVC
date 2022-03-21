@@ -1,0 +1,289 @@
+body, html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color:#f5f5f5;
+    padding: 0;
+    margin: 0;
+}
+
+  #accueil{
+    background-color:#f5f5f5;
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+  } 
+
+  .accueil-home .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+/* top section */
+
+.titre-accueil{
+      margin-bottom: 10px;
+      text-align: center;
+  }
+
+  .titre-accueil h3{
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: 700;
+    font-style: normal;
+    color: #c8c8c8;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.titre-accueil h4{
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 100;
+    font-style: normal;
+    color: inherit;
+}
+
+section .animated img{
+    width:100%;
+    height: 100%;
+}
+
+
+.overlay-accueil {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .2s ease;
+    top:100%;
+
+}
+
+section .animated {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+section .animated:hover .overlay-accueil{
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  box-shadow: 2px 2px 20px 4px #fb911f;
+}
+
+
+.animated .text-overlay-accueil {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: start !important;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.animated .text-overlay-accueil h4{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+
+/* second section */
+
+.box-evenement h3{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.box-evenement h4{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 100;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    color: inherit ;
+}
+
+
+/* 
+third section */
+
+.row >span{
+border-bottom: 1px solid #c8c8c8;
+width:100%;
+margin-top: 3%;
+}
+
+.service-box h4 img{
+    width:70px;
+    height: 43px;
+}
+
+.service-box h4 a{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-decoration:none;
+    color:inherit;
+    font-style:normal;
+}
+
+.service-box h4 a:hover{
+    text-decoration:none;
+    color:#598bd0
+}
+
+.service-box-desc{
+    margin-left: 72px;
+}
+
+
+.service-box-desc p{
+    /* margin:0 0 20px; */
+    padding-left: 3px;;
+    color: #535353;
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.services-box-list{
+    font-size: 13px;
+    line-height: 22px;
+    list-style: none;
+    color: #535353;
+
+}
+.services-box-list span{
+    margin-left:41px;
+}
+
+
+.services-box-list li::befor{
+    box-shadow: 0 0 0 2px #fb911f;
+    content: '';
+    width: 5px;
+    height: 5px;
+    left: 0px;
+    top: 14px;
+    border-radius: 50%;
+    display: block;
+    background-color: #fff;
+    transition: all .15s;
+    padding-left: -7px;
+    position: relative;
+    list-style: none;
+    }
+
+
+    /* actualite section */
+
+.actualite-title h2{
+    text-align: center;
+}
+
+.card img{
+    width:100%;
+    height: 100%;;
+}
+
+.card h5{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration:none;
+    color:inherit;
+    font-style:normal;  
+    margin-bottom: .5rem;
+}
+
+.card p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 3px;;
+    color: #535353;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card a{
+    padding: 5px 15px;
+    border-radius: 30px;
+    background:#fb911f;;
+    color:white;
+    border:none;
+}
+
+
+
+.card a:hover{
+    background:#262e49;
+    border:none;
+    color: whitesmoke;
+}
+
+
+
+/* section 5 mini caroussel */
+
+.mini-slider h3 span{
+    color:#fb911f;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.mini-slider .arranging h5{
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    color:#323232;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.3;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mini-slider .arranging span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    list-style: none;
+    color:#535353;
+    line-height: 22px;
+}
+
+.mini-slider .arranging ul li{
+    background-image: url(https://espace-batignolles.com/wp-content/themes/kallyas/images/ok3.png);
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: 0;
+    list-style: none;
+}
+
