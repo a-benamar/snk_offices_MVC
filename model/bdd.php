@@ -18,7 +18,7 @@ function etablirCo()
     // remote database connexion
     $host  = "remotemysql.com"; 
     $nomBDD   = "d1r9f5NvyX";
-    $loginBDD = "d1r9f5NvyX";
+    $loginBDD = "Id1xcH3NpZ";
     $mdpBDD   = "Id1xcH3NpZ";
     $dsn      = "mysql:host=$host; dbname=$nomBDD"; // data source name
 
